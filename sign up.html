@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Begin - The Funding you need</title>
+<link rel="stylesheet" type="text/css" href="css_page.css">
+<script src="javacode.js"></script>
+<div id="top">
+<div class="containers" onclick="myFunction(this)">
+        <div class="bar1"></div>
+        <div class="bar2"></div>
+        <div class="bar3"></div>
+      </div>
+</div>
+<div id="log"> 
+        <input class="button" id="first" type="button" onclick="location.href='login.html';" value="Log in" />
+    </div>
+<div id="ban">
+<h1>Join our team!</h1>
+<h2 id="tell">We will help you with your idea</h2>
+</div>
+</head>
+<body>
+        <div id="step_progressbar">
+            <ul>
+                <li class="unactive">Beginning</li>
+                <li class="unactive">Tell us more</li>
+                <li class="active">Join our team!</li>
+                <li>Get your funding</li>
+            </ul>
+              </div>
+    <div id="signup"></div>
+    <h1 id="Signup">Sign up</h1>
+        <form id="signing" name="myForm" action="/bank.html" onsubmit="return validateForm()">
+            <label for="uname">Username:</label>
+            <input type="text" id="uname" name="username" placeholder="Username">
+            <label for="cont">Contact E-mail:</label>
+            <input type="text" id="cont" name="contact" placeholder="E-mail">
+            <div id="lline"></div>
+            <label for="pass">Password</label>
+            <input type="text" id="pass" name="password" placeholder="Create Password">
+            <label for="cpass">Confirm Password</label>
+            <input type="text" id="cpass" name="cpassword" placeholder="Confirm Password">
+            <label class="container">By checking this box, I agree to the <u>Terms and Service</u>.
+                <input type="checkbox">
+                    <span class="checkmark"></span>
+            </label>
+          
+            <input type="submit" value="Next"/>
+          </form>
+        </div>
+    </body>
+</html>

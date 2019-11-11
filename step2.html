@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Begin - The Funding you need</title>
+<link rel="stylesheet" type="text/css" href="css_page.css">
+<script src="javacode.js"></script>
+<div id="top">
+<div class="containers" onclick="myFunction(this)">
+        <div class="bar1"></div>
+        <div class="bar2"></div>
+        <div class="bar3"></div>
+      </div>
+</div>
+<div id="log"> 
+        <input class="button" id="first" type="button" onclick="location.href='login.html';" value="Log in" />
+    </div>
+<div id="ban">
+        <div id="skip"> 
+                <input type="button" id="rec" onclick="location.href='sign up.html';" value="Skip to start recieving donations" />
+            </div>
+<h1>Tell Us More</h1>
+<h2 id="tell">Brainstrom and plan your idea!</h2>
+</div>
+</head>
+<body>
+        <div id="step_progressbar">
+            <ul>
+                <li class="unactive">Beginning</li>
+                <li class="active">Tell us more</li>
+                <li class="una">Join our team!</li>
+                <li class="una">Get your funding</li>
+            </ul>
+              </div>
+    <div id="begin"></div>
+        <form action="/sign up.html">
+            <label for="money">How much money do you think you will need?</label>
+            <input type="text" id="Ititle" name="title" placeholder="amount">
+            <label for="who">Are you working alone? Who else is apart of your project?</label>
+            <input type="text" id="Ititle" name="title">
+            <label for="how">How will you spend the money people donate to you?</label>
+            <textarea type="text"  placeholder="What will the money be spent on?" rows="10" cols="30"></textarea>
+            <label for="goal">What is your ultimate goal and how do you think you will achieve it?</label>
+            <textarea type="text"  placeholder="What will the money be spent on?" rows="10" cols="30"></textarea>
+          
+            <input type="submit" value="Next" onclick="location.href='sign up.html';"/>
+          </form>
+        </div>
+    </body>
+</html>

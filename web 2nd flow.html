@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Begin - The Funding you need</title>
+<link rel="stylesheet" type="text/css" href="css_page.css">
+<script src="javacode.js"></script>
+<div id="top">
+<div class="containers" onclick="myFunction(this)">
+        <div class="bar1"></div>
+        <div class="bar2"></div>
+        <div class="bar3"></div>
+      </div>
+</div>
+<div id="log"> 
+        <input class="button" id="first" type="button" onclick="location.href='login.html';" value="Log in" />
+    </div>
+<div id="ban">
+        <div id="skip"> 
+                <input type="button" id="rec" onclick="location.href='sign up.html';" value="Skip to start recieving donations" />
+            </div>
+<h1>Let's Begin</h1>
+<h2 id="tell">Tell us about your idea</h2>
+</div>
+</head>
+<body>
+        <div id="step_progressbar">
+            <ul>
+                <li class="active">Beginning</li>
+                <li class="una">Tell us more</li>
+                <li class="una">Join our team!</li>
+                <li class="una">Get your funding</li>
+            </ul>
+              </div>
+    <div id="begin"></div>
+        <form action="/step2.html">
+            <label for="Ititle">Give your idea a title:</label>
+            <input type="text" id="Ititle" name="title" placeholder="Title">
+        
+            <label for="country">What category does your idea fall under?</label>
+            <select id="category" name="category">
+              <option value="art">Art</option>
+              <option value="design">Design</option>
+              <option value="film">Film & video</option>
+              <option value="food">Food</option>
+              <option value="games">Games</option>
+              <option value="invention">Invention</option>
+              <option value="music">Music</option>
+              <option value="photo">Photography</option>
+              <option value="technology">Technology</option>
+            </select>
+
+            <label for="brief">Provide a berif description of your idea:</label>
+            <textarea type="text"  placeholder="What's your idea?" rows="10" cols="30"></textarea>
+          
+            <input type="submit" value="Next" onclick="location.href='step2.html';"/>
+          </form>
+        </div>
+    </body>
+</html>

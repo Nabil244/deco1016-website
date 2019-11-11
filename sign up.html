@@ -30,7 +30,7 @@
               </div>
     <div id="signup"></div>
     <h1 id="Signup">Sign up</h1>
-        <form id="signing" name="myForm" action="/bank.html" onclick="return validateForm()">
+        <form id="signing" name="myForm" action="/bank.html">
             <label for="uname">Username:</label>
             <input type="text" id="uname" name="username" placeholder="Username">
             <label for="cont">Contact E-mail:</label>
@@ -45,7 +45,7 @@
                     <span class="checkmark"></span>
             </label>
           
-            <input type="button" onclick="location.href='bank.html';" value="Next"/>
+            <input type="button" onclick="return validateForm()" value="Next"/>
           </form>
         </div>
     </body>
